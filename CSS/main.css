@@ -1,13 +1,49 @@
 * {
     box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .logo {
     margin: 30px 0px 0px 30px;
 }
 
+#content {
+    display: flex;
+}
+
+#card {
+    display: flex;
+}
+
+.card-1 {
+    display: flex;
+    align-items: center;
+}
+
 .square {
+    display: block;
     width: 70px;
     height: 70px;
-    background: ##1F2041;
+    background: #1F2041;
 }
+
+.text {
+    display: flex;
+}
+
+.text-content {
+    display: flexbox;
+    flex-direction: column;
+}
+
+.heading {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.paragraph {
+    padding-top: 10px;
+}
+
+
